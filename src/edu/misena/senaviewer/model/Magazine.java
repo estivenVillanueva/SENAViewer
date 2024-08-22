@@ -8,8 +8,8 @@ public class Magazine {
     private int id;
     private String title;
     private String editionDate;
-    private String editorial;
-    private List<String> authors;
+    public String editorial;
+    public List<String> authors;
 
 
     public Magazine(String title, String editionDate, String editorial) {

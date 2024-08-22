@@ -1,14 +1,14 @@
 package edu.misena.senaviewer.model;
 
 public class Movie {
-    private int id;
-    private String title;
-    private String genre;
-    private String creator;
-    private int duration;
-    private int year;
-    private boolean viewed;
-    private int timeViewed;
+    public int id;
+    public String title;
+    public String genre;
+    public String creator;
+    public int duration;
+    public int year;
+    public boolean viewed;
+    public int timeViewed;
 
     public Movie(String title, String genre, String creator, int duration, int year) {
         this.title = title;
