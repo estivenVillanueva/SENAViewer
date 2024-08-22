@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Book {
-    private int id;
-    private String title;
-    private String edititionDate;
-    private String editorial;
-    private List<String> authors;
-    private String isbn;
-    private boolean readed;
-    private int timeReaded;
+    public int id;
+    public String title;
+    public String edititionDate;
+    public String editorial;
+    public List<String> authors;
+    public String isbn;
+    public boolean readed;
+    public int timeReaded;
 
     public Book(String title, String edititionDate, String editorial, String isbn) {
         this.title = title;

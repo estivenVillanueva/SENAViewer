@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Magazine {
 
-    private int id;
-    private String title;
-    private String editionDate;
+    public int id;
+    public String title;
+    public String editionDate;
     public String editorial;
     public List<String> authors;
 
